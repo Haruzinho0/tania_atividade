@@ -39,4 +39,10 @@ soma = 0
 for linha in multiplicar_matrizes(matriz1,matriz2):
     for valor in linha:
         soma += valor
-print("A soma de todos os valores da matriz é:", soma)
+print("A soma de todos os botões usados é :", soma)
+
+
+
+
+     
+
