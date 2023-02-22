@@ -27,22 +27,16 @@ matriz2 = [[100, 50], [50, 100], [50, 50]]
 
 #Forma de mostra a matriz no final 
 print()
+print("Matriz Final" )
 for linha in multiplicar_matrizes(matriz1,matriz2):
     for matriz_final in linha:
         print(matriz_final, end=' ')
     print()
 #Soma todos os valores da Matriz
+
 somafinal = multiplicar_matrizes
 soma = 0
 for linha in multiplicar_matrizes(matriz1,matriz2):
     for valor in linha:
         soma += valor
-print("Matriz Final" )
 print("A soma de todos os valores da matriz é:", soma)
-
-
-
-
-     
-
-
